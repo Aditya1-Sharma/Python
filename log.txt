@@ -1,0 +1,5 @@
+Hello World
+This is a log file
+Python is awesome
+How are you doing today ?
+Python  is awesome to learn
