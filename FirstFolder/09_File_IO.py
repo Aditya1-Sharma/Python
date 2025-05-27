@@ -37,6 +37,11 @@ import os
 # print(line1)
 # f.close()
 
+#### readlines function
+with open("09_File.txt") as f:
+    line1 = f.readlines()
+    print(line1)
+
 ### Append the file
 
 # strAppend = "Hey adi you are amazing\n"

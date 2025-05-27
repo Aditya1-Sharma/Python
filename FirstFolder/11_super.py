@@ -16,31 +16,30 @@
 
 
 # o = Employee()
-# print(o.a) 
-
-
 
 # o = Programmer()
-# print(o.a , o.b)
-
 # o = Manager()
+
+# print(o.a) 
+# print(o.a , o.b)
 # print(o.a , o.b , o.c)
+
 
 
 #### Class Methods
 
-# class Employee:
-#     a =1
+class Employee:
+    a =1
 
-#     @classmethod
-#     def show(cls):
-#         print(f"The class attribute of a is {cls.a}")
-#         print("The @classMethod is used to access the class attribute")
+    @classmethod
+    def show(cls):
+        print(f"The class attribute of a is {cls.a}")
+        print("The @classMethod is used to access the class attribute")
 
-# e = Employee()
-# e.a = 45
+e = Employee()
+e.a = 45
 
-# e.show()
+e.show()
 
 
 #### Property Decorators 
@@ -74,14 +73,14 @@
 
 #### Operator overloading
 
-class Number:
-    def __init__(self , n):
-        self.n = n
+# class Number:
+#     def __init__(self , n):
+#         self.n = n
     
-    def __add__(self , num):
-        return self.n+ num.n
+#     def __add__(self , num):
+#         return self.n+ num.n
 
-n = Number(1)
-m = Number(2)
+# n = Number(1)
+# m = Number(2)
 
-print(n+m)
+# print(n+m)

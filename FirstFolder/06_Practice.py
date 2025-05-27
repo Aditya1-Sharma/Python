@@ -15,16 +15,23 @@
 #     print("Greatest number is " , a4)
 
 
-# marks = []
+marks = []
 
-# print(type(marks))
+print(type(marks))
+res = ""
+for i in range(1 , 6):
+    ele = int(input(f"Enter the marks {i} :"))
+    if(ele<33):
+        res = "fail"
+    marks.append(ele)
 
-# for i in range(1 , 6):
-#     ele = int(input(f"Enter the marks {i} :"))
-#     marks.append(ele)
+print(marks)
+percentage = sum(marks)*100/500
+if(percentage>=40 and res==""):
+    print("You passed with a percentage of " , percentage)
+else:
+    print("You failed with a percentage of " , percentage)
 
-# print(marks)
-# print("Total Percentage: " , (sum(marks) *100 )/500)
 
 #### Problem 3
 

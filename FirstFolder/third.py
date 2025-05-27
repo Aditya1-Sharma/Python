@@ -39,6 +39,19 @@ word = "Amazing"
 stringFriend = "Apple"
 print(stringFriend[0])
 
+# test = "Hello World"
+# print(test.upper())
+
+
+# ### Reverse  a string
+test = "Hello World"
+print(test[::-1])
+
+# ## String Concatenation
+test = "Hello"
+test2 = " World"
+print(test + test2)
+
 
 
 

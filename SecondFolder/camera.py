@@ -14,6 +14,9 @@ def get_video_fps(video_file):
     return fps
 
 
+print("Press 'q' to quit, 's' to save a photo, and 'f' to get the FPS.")
+
+
 while True:
     ret, frame = cap.read()
     if not ret:

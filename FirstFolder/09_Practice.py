@@ -2,23 +2,23 @@
 
 import os
 import random
-directory = os.getcwd()
+# directory = os.getcwd()
 
-fileName = "09_Practice.txt"
+# fileName = "09_Practice.txt"
 
-poemFile = "09_twinkle.txt"
+# poemFile = "09_twinkle.txt"
 
-file_path = os.path.join(directory , "FirstFolder" ,poemFile)
+# file_path = os.path.join(directory , "FirstFolder" ,poemFile)
 
-print(file_path)
-#### Writing from the file
+# print(file_path)
+# Writing from the file
 
 # with open(file_path , 'w') as f:
 #     f.write("This is a sample practice file created\n")
 #     f.write("This is a awesome course done by me ")
 #     print("File Created")
 
-### Reading from the file 
+# Reading from the file
 
 # with open(file_path ) as f:
 #     content = f.read()
@@ -26,10 +26,9 @@ print(file_path)
 #         print("This poem is twinle twinkle")
 #     else:
 #         print("Word twinke is not present")
-    
 
 
-### Important
+# Important
 # file_path = "hiscore.txt"
 
 # def game():
@@ -44,7 +43,7 @@ print(file_path)
 #     except FileNotFoundError:
 #         hiscore = 0
 
-#     print(f"Your score: {score}")
+#     print(f"Your score: {score} and high score is {hiscore}")
 
 #     if score > hiscore:
 #         # Write the hiscore into the file
@@ -57,13 +56,13 @@ print(file_path)
 # game()
 
 
-### Generate table
+# Generate table
 
 # def generateTable(n):
 #     table = ""
 #     for i in range(1 , 11):
 #         table += f"{n} X {i} = {n*i}\n"
-    
+
 #     with open(f"tables/table_{n}" , 'w') as f:
 #         f.write(table)
 
@@ -71,24 +70,24 @@ print(file_path)
 #     generateTable(i)
 
 
-### Replace the word donkey
+# Replace the word donkey
 
 
-# word = "Donkey"
+word = "Donkey"
 
-# with open("09_ReplaceDonkey.txt", 'r') as f:
-#     content = f.read()
-#     print(content)
+with open("09_ReplaceDonkey.txt", 'r') as f:
+    content = f.read()
 
-# newContent = content.replace(word , "#####")
-# newContent1 = newContent.replace("donkey" , "#####")
+    print(content)
 
-# with open("09_ReplaceDonkey.txt" , 'w') as f:
-#     f.write(newContent1)
+newContent = content.replace(word, "#####")
+newContent1 = newContent.replace("donkey", "#####")
+
+with open("09_ReplaceDonkey.txt", 'w') as f:
+    f.write(newContent1)
 
 
-
-### Replace the word for censored
+# Replace the word for censored
 
 # words = ["Donkey" , "bad" , "ganda"]
 
@@ -99,12 +98,12 @@ print(file_path)
 # for word in words:
 #     content = content.replace(word , "#" * len(word))
 #     print(content)
-    
+
 # with open("09_ReplaceDonkey.txt" , 'w') as f:
 #     f.write(content)
-   
 
-### To find the line where python is present
+
+# To find the line where python is present
 
 # with open("log.txt" , 'r') as f:
 #     content = f.readlines()
@@ -113,18 +112,17 @@ print(file_path)
 #         if("Python" in line):
 #             print(cnt , end="")
 #             break
-#         cnt+=1  
+#         cnt+=1
 #     else:
 #         print("Done !")
-    
 
 
-### Problem 9: to check wheather the file1 is identical to file2
+# Problem 9: to check wheather the file1 is identical to file2
 
-### Problem 10 to wipe out the content of file 
+# Problem 10 to wipe out the content of file
 
 # with open("log.txt" , 'w') as f:
 #     f.write("")
 
 
-### just check the shutil
+# just check the shutil

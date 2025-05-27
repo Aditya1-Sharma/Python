@@ -1,6 +1,6 @@
 words = {
     "maddad": "Help",
-    "kursi" : "chair",
+    "kursi": "chair",
     "kitab": "Book"
 }
 
@@ -30,16 +30,16 @@ s2 = set()
 s2.add(20)
 s2.add(20.0)
 s2.add('20')
-print(len(s2)) ## It will give 2
-print(20.0 == 20) ## It will give True
+print(len(s2))  # It will give 2
+print(20.0 == 20)  # It will give True
 
 #  Question 5
 s = {}
-print(type(s)) ## dict
+print(type(s))  # dict
 
 
 # Qusetion 6
-s = {}
+# s = {}
 
 # for i in range(1 , 6):
 #     name = input("Enter the name : ")
@@ -50,8 +50,6 @@ s = {}
 
 # Question 9
 
-# can you change the value inside the set 
-
-s = {8 , 7 , 12 , "Harry" , [1 , 2]}
-
-
+# can you change the value inside the set
+print("Question 9 : can you change the value inside the set ")
+s4 = {8, 7, 12, "Harry", [1, 2]}

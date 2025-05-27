@@ -9,8 +9,11 @@
 s = {1 , 2 , 32 , 23 , 23 , 12, "Harry"}
 e = set()  ## It is empty set
 
-# e.add(1)
-# e.add(2)
+e.add(1)
+e.add(2)
+
+# e.discard(1)
+# print(e)
 
 # e.remove(1)
 # print(e)
@@ -29,3 +32,8 @@ s2 = {7 , 8 , 45 , 5 , 6}
 print(s1.union(s2))
 
 print(s1.intersection(s2))
+
+
+# s = {}
+
+# print(type(s)) ### It is a dictionary

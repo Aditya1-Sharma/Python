@@ -4,6 +4,8 @@ print(a)
 num = a.count(2)
 print(num)
 
+# It will return the index of the first appearance of the value in the tuple
+# ValueError: tuple.index(x): x not in tuple
 num = a.index(2)
 print(num)
 
@@ -21,13 +23,7 @@ print(c)
 # print(num)
 
 
-# AttributeError: 'tuple' object has no attribute 'remove'
-# a.remove(2)
-# print(a)
+it = a.__add__((10 , 20 , 30))
+print(it)
 
-# a.reverse()
-# print(a)
-
-# a.sort()
-# print(a)
 

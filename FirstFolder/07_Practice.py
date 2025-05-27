@@ -57,7 +57,7 @@
 # for i in range(1 , n+1):
 #     print(" " * (n-i),end="")
 #     print("*" * (2*i -1))
-    # print("\n")
+#     print("\n")
 
 ### Proble 8
 # n = int(input("Enter the number"))
@@ -84,3 +84,7 @@
 
 
 ### Print table in reverse order
+
+n = int(input("Enter the number"))
+for i in range(10 , 0 , -1):
+    print(f"{n} * {i} = {i*n}")

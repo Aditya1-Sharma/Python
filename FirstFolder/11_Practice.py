@@ -1,4 +1,4 @@
-#### PRoblem 1
+# PRoblem 1
 
 # class TwoDVector:
 #     def __init__(self , i , j):
@@ -23,8 +23,7 @@
 # b.show()
 
 
-
-### PRoblem 2
+# PRoblem 2
 
 # class Animals:
 #     pass
@@ -43,30 +42,30 @@
 # dog.bark()
 
 
-#### Problem 3
+# Problem 3
 
-# class Employee:
-#     salary = 234
-#     increment = 20
+class Employee:
+    salary = 234
+    increment = 20
 
-#     @property
-#     def salaryAfterIncrement(self):
-#         return (self.salary + self.salary *(self.increment/100))
-    
-#     @salaryAfterIncrement.setter
-#     def salaryAfterIncrement(self , salary):
+    @property
+    def salaryAfterIncrement(self):
+        return (self.salary + self.salary * (self.increment/100))
 
-#         self.increment = ((salary/self.salary)-1)*100
-    
+    @salaryAfterIncrement.setter
+    def salaryAfterIncrement(self, salary):
 
-# e = Employee()
-# e.salaryAfterIncrement = 280.8
-# print(e.increment)
-# print(Employee.increment)
+        self.increment = ((salary/self.salary)-1)*100
 
 
+e = Employee()
+e.salaryAfterIncrement = 280.8
+print(e.salaryAfterIncrement)
+print(round(e.increment, 2))
+print(Employee.increment)
 
-#### Problem 4
+
+# Problem 4
 
 # class Complex:
 #     def __init__(self , r , i):
@@ -75,10 +74,10 @@
 
 #     def __add__(self , c2):
 #         return Complex(self.r + c2.r , self.i + c2.i)
-    
+
 #     def __str__(self):
 #         return f"{self.r} + {self.i}i"
-    
+
 
 # c1 = Complex(1 , 2)
 # c2 = Complex(3 , 4)
@@ -89,7 +88,7 @@
 # print(c1+c2)
 
 
-#### Problem 5 -> 
+# Problem 5 ->
 
 # class Complex:
 #     def __init__(self , r , i):
@@ -98,15 +97,15 @@
 
 #     def __add__(self , c2):
 #         return Complex(self.r + c2.r , self.i + c2.i)
-    
+
 #     def __mul__(self, c2):
 #         real = self.r * c2.r - self.i * c2.i
 #         imag = self.r * c2.i + self.i * c2.r
 #         return Complex(real, imag)
-    
+
 #     def __str__(self):
 #         return f"{self.r} + {self.i}i"
-    
+
 
 # c1 = Complex(1 , 2)
 # c2 = Complex(3 , 4)
@@ -118,20 +117,20 @@
 # print(c1*c2)
 
 
-### Problem 6
+# Problem 6
 
 # class Vector:
 #     def __init__(self , i , j):
 #         self.i = i
 #         self.j = j
-    
+
 #     def __add__(self , c2):
 #         return Vector(self.i + c2.i , self.j + c2.j)
-    
+
 #     def __mul__(self , c2):
 #         res = self.i * c2.i + self.j * c2.j
 #         return res
-    
+
 #     def __str__(self):
 #         return f"{self.i} + {self.j}"
 
@@ -142,4 +141,4 @@
 # print(v1*v2)
 
 
-#### Problem 7
+# Problem 7
